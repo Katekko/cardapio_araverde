@@ -463,24 +463,6 @@ body {
     font-weight: 500;
 }
 
-.item-dots {
-    flex-shrink: 0;
-    flex-grow: 1;
-    min-width: 2rem;
-    border-bottom: 1.5px dotted var(--rule);
-    margin-bottom: 0.35rem;
-    align-self: end;
-}
-
-.item-price {
-    font-family: var(--display);
-    font-size: 1.1rem;
-    font-weight: 500;
-    color: var(--terracotta-dark);
-    white-space: nowrap;
-    flex-shrink: 0;
-    font-variant-numeric: tabular-nums;
-}
 
 /* ============================================
    ENCOMENDA
@@ -653,14 +635,6 @@ body {
 
     .item {
         flex-wrap: wrap;
-    }
-
-    .item-dots {
-        display: none;
-    }
-
-    .item-price {
-        font-size: 1rem;
     }
 
     .category-heading {
