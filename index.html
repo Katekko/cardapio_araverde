@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cardápio artesanal — salgados, quiches, escondidinhos e doces feitos com carinho.">
+    <meta name="theme-color" content="#3a2418">
+    <title>Sabor da Casa — Cardápio Artesanal</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="grain" aria-hidden="true"></div>
+
+    <header class="hero">
+        <nav class="nav">
+            <div class="nav-brand">
+                <span class="nav-mark">❦</span>
+                <span class="nav-name">Sabor da Casa</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#cardapio">Cardápio</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+
+        <div class="hero-content">
+            <p class="hero-eyebrow">— desde o primeiro forno —</p>
+            <h1 class="hero-title">
+                <span class="word">Sabores</span>
+                <span class="word italic">feitos</span>
+                <span class="word">à mão,</span>
+                <span class="word">servidos</span>
+                <span class="word italic">com alma.</span>
+            </h1>
+            <p class="hero-sub">
+                Quiches douradas, escondidinhos cremosos, salgados crocantes
+                e doces que lembram a cozinha da avó. Tudo artesanal, tudo fresquinho.
+            </p>
+            <a href="#cardapio" class="hero-cta">
+                Ver cardápio
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3 7h8M7 3l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </a>
+        </div>
+
+        <div class="hero-ornament" aria-hidden="true">
+            <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="100" cy="100" r="95" fill="none" stroke="currentColor" stroke-width="0.5" stroke-dasharray="2 4"/>
+                <circle cx="100" cy="100" r="70" fill="none" stroke="currentColor" stroke-width="0.5"/>
+                <text x="100" y="105" text-anchor="middle" font-family="Fraunces" font-style="italic" font-size="14" fill="currentColor">artesanal</text>
+            </svg>
+        </div>
+    </header>
+
+    <div class="marquee" aria-hidden="true">
+        <div class="marquee-track">
+            <span>✦ feito com tempo</span>
+            <span>✦ ingredientes frescos</span>
+            <span>✦ receitas de família</span>
+            <span>✦ assado na hora</span>
+            <span>✦ feito com tempo</span>
+            <span>✦ ingredientes frescos</span>
+            <span>✦ receitas de família</span>
+            <span>✦ assado na hora</span>
+        </div>
+    </div>
+
+    <main id="cardapio" class="menu">
+        <div class="menu-header">
+            <p class="section-label">Cardápio</p>
+            <h2 class="section-title">O que está <span class="italic">no forno</span> hoje</h2>
+            <p class="section-desc">
+                Pedidos podem ser feitos no balcão ou por encomenda.
+                Quantidades limitadas — o melhor costuma acabar cedo.
+            </p>
+        </div>
+
+        <section class="category" data-reveal>
+            <div class="category-heading">
+                <span class="category-num">01</span>
+                <h3 class="category-title">Salgados Quentes</h3>
+                <span class="category-line"></span>
+            </div>
+
+            <ul class="items">
+                <li class="item">
+                    <div class="item-main">
+                        <h4 class="item-name">Quiche de Alho Poró</h4>
+                        <p class="item-desc">Massa amanteigada com recheio cremoso de alho poró e queijo. Servida quentinha.</p>
+                    </div>
+                    <span class="item-dots"></span>
+                    <span class="item-price">R$ 00,00</span>
+                </li>
+
+                <li class="item">
+                    <div class="item-main">
+                        <h4 class="item-name">Escondidinho de Camarão</h4>
+                        <p class="item-desc">Camarões refogados em molho aromático, cobertos com purê de aipim gratinado.</p>
+                    </div>
+                    <span class="item-dots"></span>
+                    <span class="item-price">R$ 00,00</span>
+                </li>
+
+                <li class="item">
+                    <div class="item-main">
+                        <h4 class="item-name">Escondidinho de Carne Seca</h4>
+                        <p class="item-desc">Carne seca desfiada com cebola caramelizada, sob camada de purê de aipim e queijo.</p>
+                    </div>
+                    <span class="item-dots"></span>
+                    <span class="item-price">R$ 00,00</span>
+                </li>
+
+                <li class="item">
+                    <div class="item-main">
+                        <h4 class="item-name">Casquinha de Siri</h4>
+                        <p class="item-desc">Siri temperado na casca, com farofa crocante por cima. Clássico capixaba.</p>
+                    </div>
+                    <span class="item-dots"></span>
+                    <span class="item-price">R$ 00,00</span>
+                </li>
+
+                <li class="item">
+                    <div class="item-main">
+                        <h4 class="item-name">Barquinha de Frango</h4>
+                        <p class="item-desc">Massa em formato de barquinha com recheio suculento de frango cremoso.</p>
+                    </div>
+                    <span class="item-dots"></span>
+                    <span class="item-price">R$ 00,00</span>
+                </li>
+
+                <li class="item">
+                    <div class="item-main">
+                        <h4 class="item-name">Barquinha de Camarão</h4>
+                        <p class="item-desc">Massa em formato de barquinha, recheada com camarões em molho aromatizado.</p>
+                    </div>
+                    <span class="item-dots"></span>
+                    <span class="item-price">R$ 00,00</span>
+                </li>
+            </ul>
+        </section>
+
+        <section class="category" data-reveal>
+            <div class="category-heading">
+                <span class="category-num">02</span>
+                <h3 class="category-title">Salgadinhos</h3>
+                <span class="category-line"></span>
+            </div>
+
+            <ul class="items">
+                <li class="item">
+                    <div class="item-main">
+                        <h4 class="item-name">Coxinha</h4>
+                        <p class="item-desc">Recheio cremoso de frango desfiado, massa leve e casquinha dourada.</p>
+                    </div>
+                    <span class="item-dots"></span>
+                    <span class="item-price">R$ 00,00</span>
+                </li>
+
+                <li class="item">
+                    <div class="item-main">
+                        <h4 class="item-name">Rissole de Carne ou Frango</h4>
+                        <p class="item-desc">Massa fina e crocante, recheio cremoso à sua escolha. Peça o seu sabor.</p>
+                    </div>
+                    <span class="item-dots"></span>
+                    <span class="item-price">R$ 00,00</span>
+                </li>
+
+                <li class="item">
+                    <div class="item-main">
+                        <h4 class="item-name">Kibe</h4>
+                        <p class="item-desc">Trigo temperado com carne moída e hortelã fresca. Crocante por fora, macio por dentro.</p>
+                    </div>
+                    <span class="item-dots"></span>
+                    <span class="item-price">R$ 00,00</span>
+                </li>
+            </ul>
+        </section>
+
+        <section class="category" data-reveal>
+            <div class="category-heading">
+                <span class="category-num">03</span>
+                <h3 class="category-title">Doces</h3>
+                <span class="category-line"></span>
+            </div>
+
+            <ul class="items">
+                <li class="item">
+                    <div class="item-main">
+                        <h4 class="item-name">Bolos de Pote</h4>
+                        <p class="item-desc">Diversos sabores todos os dias: prestígio, ninho com nutella, morango, churros, limão e mais. Pergunte os sabores do dia.</p>
+                        <span class="item-tag">vários sabores</span>
+                    </div>
+                    <span class="item-dots"></span>
+                    <span class="item-price">R$ 00,00</span>
+                </li>
+            </ul>
+        </section>
+
+        <section class="category" data-reveal>
+            <div class="category-heading">
+                <span class="category-num">04</span>
+                <h3 class="category-title">Bebidas</h3>
+                <span class="category-line"></span>
+            </div>
+
+            <ul class="items items-compact">
+                <li class="item">
+                    <div class="item-main">
+                        <h4 class="item-name">Café</h4>
+                        <p class="item-desc">Coado na hora, grãos selecionados.</p>
+                    </div>
+                    <span class="item-dots"></span>
+                    <span class="item-price">R$ 00,00</span>
+                </li>
+
+                <li class="item">
+                    <div class="item-main">
+                        <h4 class="item-name">Chá</h4>
+                        <p class="item-desc">Ervas naturais — consulte os sabores.</p>
+                    </div>
+                    <span class="item-dots"></span>
+                    <span class="item-price">R$ 00,00</span>
+                </li>
+
+                <li class="item">
+                    <div class="item-main">
+                        <h4 class="item-name">Suco Natural</h4>
+                        <p class="item-desc">Fruta da estação, feito na hora.</p>
+                    </div>
+                    <span class="item-dots"></span>
+                    <span class="item-price">R$ 00,00</span>
+                </li>
+
+                <li class="item">
+                    <div class="item-main">
+                        <h4 class="item-name">Refrigerante</h4>
+                        <p class="item-desc">Lata gelada.</p>
+                    </div>
+                    <span class="item-dots"></span>
+                    <span class="item-price">R$ 00,00</span>
+                </li>
+
+                <li class="item">
+                    <div class="item-main">
+                        <h4 class="item-name">Água</h4>
+                        <p class="item-desc">Com ou sem gás.</p>
+                    </div>
+                    <span class="item-dots"></span>
+                    <span class="item-price">R$ 00,00</span>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <section id="sobre" class="encomenda">
+        <div class="encomenda-inner">
+            <p class="section-label light">Encomendas</p>
+            <h2 class="encomenda-title">
+                Para festas, reuniões ou <span class="italic">qualquer motivo</span>
+                que peça algo especial.
+            </h2>
+            <p class="encomenda-text">
+                Fazemos kits de salgados, quiches inteiras e bolos de pote sob encomenda.
+                Peça com antecedência e combinamos tudo certinho.
+            </p>
+            <a href="#contato" class="encomenda-cta">Fazer encomenda</a>
+        </div>
+    </section>
+
+    <footer id="contato" class="footer">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <p class="footer-mark">❦</p>
+                <h3 class="footer-brand">Sabor da Casa</h3>
+                <p class="footer-tag">Feito à mão, com tempo e carinho.</p>
+            </div>
+            <div class="footer-col">
+                <p class="footer-label">Visite</p>
+                <p class="footer-text">Rua Exemplo, 123<br>Bairro · Cidade — ES</p>
+            </div>
+            <div class="footer-col">
+                <p class="footer-label">Horário</p>
+                <p class="footer-text">Ter a Sáb · 8h às 18h<br>Dom · 8h às 13h</p>
+            </div>
+            <div class="footer-col">
+                <p class="footer-label">Fale com a gente</p>
+                <p class="footer-text">(27) 0000-0000<br>@sabordacasa</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© <span id="year"></span> Sabor da Casa · Todos os direitos reservados</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
