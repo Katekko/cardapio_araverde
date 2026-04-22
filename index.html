@@ -26,6 +26,7 @@
             </div>
             <ul class="nav-links">
                 <li><a href="#cardapio">Cardápio</a></li>
+                <li><a href="#evento">Evento</a></li>
                 <li><a href="#sobre">Proposta</a></li>
                 <li><a href="#contato">Contato</a></li>
             </ul>
@@ -328,6 +329,143 @@
                 <img src="images/peixe.jpg" alt="Peixe assado" loading="lazy">
                 <figcaption>Peixe Assado</figcaption>
             </figure>
+        </div>
+    </section>
+
+    <section id="evento" class="event" data-reveal>
+        <div class="event-inner">
+            <div class="event-header">
+                <p class="section-label">Detalhes do Evento</p>
+                <h2 class="section-title">Organização <span class="italic">completa</span> do serviço</h2>
+                <p class="section-desc">
+                    Equipe, cronograma e informações do evento para garantir um atendimento pontual,
+                    cordial e com padrão de qualidade em cada etapa.
+                </p>
+            </div>
+
+            <div class="tabs" role="tablist">
+                <button class="tab is-active" role="tab" aria-selected="true" aria-controls="panel-info" id="tab-info" data-tab="info">
+                    Informações
+                </button>
+                <button class="tab" role="tab" aria-selected="false" aria-controls="panel-equipe" id="tab-equipe" data-tab="equipe">
+                    Equipe
+                </button>
+                <button class="tab" role="tab" aria-selected="false" aria-controls="panel-cronograma" id="tab-cronograma" data-tab="cronograma">
+                    Cronograma
+                </button>
+            </div>
+
+            <div class="tab-panels">
+                <div class="tab-panel is-active" id="panel-info" role="tabpanel" aria-labelledby="tab-info" data-panel="info">
+                    <div class="info-grid">
+                        <div class="info-card">
+                            <p class="info-label">Data</p>
+                            <p class="info-value">28 <span class="info-sep">·</span> 04 <span class="info-sep">·</span> 2026</p>
+                            <p class="info-hint">Quarta-feira</p>
+                        </div>
+                        <div class="info-card">
+                            <p class="info-label">Horário</p>
+                            <p class="info-value">10h <span class="italic">às</span> 12h</p>
+                            <p class="info-hint">Duração de 2 horas</p>
+                        </div>
+                        <div class="info-card">
+                            <p class="info-label">Público</p>
+                            <p class="info-value">50 <span class="italic">pessoas</span></p>
+                            <p class="info-hint">Convidados estimados</p>
+                        </div>
+                        <div class="info-card info-card--wide">
+                            <p class="info-label">Serviço fechado</p>
+                            <p class="info-value">R$ 10.000,00</p>
+                            <p class="info-hint">Alimentação completa — preparo, mão de obra e apresentação</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-panel" id="panel-equipe" role="tabpanel" aria-labelledby="tab-equipe" data-panel="equipe" hidden>
+                    <p class="team-total">Total de 7 profissionais dedicados ao evento</p>
+
+                    <div class="team-grid">
+                        <div class="team-block">
+                            <p class="team-label">Cozinha &amp; produção</p>
+                            <ul class="team-list">
+                                <li><span class="team-count">1</span><span class="team-role">Chef / responsável técnico</span></li>
+                                <li><span class="team-count">2</span><span class="team-role">Cozinheiros</span></li>
+                            </ul>
+                        </div>
+
+                        <div class="team-block">
+                            <p class="team-label">Serviço de salão</p>
+                            <ul class="team-list">
+                                <li><span class="team-count">2</span><span class="team-role">Garçons</span></li>
+                                <li><span class="team-count">1</span><span class="team-role">Auxiliar de apoio</span></li>
+                            </ul>
+                        </div>
+
+                        <div class="team-block">
+                            <p class="team-label">Recepção</p>
+                            <ul class="team-list">
+                                <li><span class="team-count">1</span><span class="team-role">Recepcionista</span></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="team-detail">
+                        <p class="team-detail-label">— Função da recepcionista —</p>
+                        <h4 class="team-detail-title">Primeiro contato do evento</h4>
+                        <p class="team-detail-desc">
+                            Responsável por receber e direcionar os convidados, garantindo que o
+                            evento comece com organização e um toque de serviço premium.
+                        </p>
+                        <ul class="team-duties">
+                            <li>Receber os convidados com cordialidade</li>
+                            <li>Direcionar para o espaço (mesa, buffet, etc.)</li>
+                            <li>Informar sobre o serviço — buffet liberado, serviço volante</li>
+                            <li>Organizar o fluxo de entrada e evitar aglomerações</li>
+                            <li>Apoiar o cliente/anfitrião conforme necessidade</li>
+                        </ul>
+                        <p class="team-dress">
+                            <span class="team-dress-label">Padrão:</span>
+                            roupa social alinhada ao evento, postura profissional, comunicação clara e atenta.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="tab-panel" id="panel-cronograma" role="tabpanel" aria-labelledby="tab-cronograma" data-panel="cronograma" hidden>
+                    <ol class="timeline">
+                        <li class="timeline-item">
+                            <span class="timeline-time">09:00</span>
+                            <div class="timeline-content">
+                                <h4 class="timeline-title">Chegada da recepcionista</h4>
+                                <p class="timeline-desc">Organização da entrada, alinhamento com a equipe e definição de posicionamento.</p>
+                            </div>
+                        </li>
+
+                        <li class="timeline-item timeline-item--highlight">
+                            <span class="timeline-time">10:00</span>
+                            <div class="timeline-content">
+                                <h4 class="timeline-title">Início do evento</h4>
+                                <p class="timeline-desc">Recepção ativa dos convidados e controle do fluxo de entrada.</p>
+                            </div>
+                        </li>
+
+                        <li class="timeline-item">
+                            <span class="timeline-time">10:30</span>
+                            <div class="timeline-content">
+                                <h4 class="timeline-title">Pico do evento</h4>
+                                <p class="timeline-desc">Atenção redobrada à chegada contínua e comunicação próxima com os garçons.</p>
+                            </div>
+                        </li>
+
+                        <li class="timeline-item">
+                            <span class="timeline-time">11:30</span>
+                            <div class="timeline-content">
+                                <h4 class="timeline-title">Finalização</h4>
+                                <p class="timeline-desc">Apoio na saída dos convidados, mantendo o padrão cordial até o último momento.</p>
+                            </div>
+                        </li>
+                    </ol>
+                </div>
+            </div>
         </div>
     </section>
 
